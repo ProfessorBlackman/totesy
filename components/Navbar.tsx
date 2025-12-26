@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect, useRef } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useStore } from '../store';
@@ -15,6 +14,7 @@ const Navbar: React.FC = () => {
   const [suggestions, setSuggestions] = useState<Product[]>([]);
   const [showSuggestions, setShowSuggestions] = useState(false);
   const [isCartBouncing, setIsCartBouncing] = useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   
   const searchRef = useRef<HTMLDivElement>(null);
   const navigate = useNavigate();
@@ -163,9 +163,41 @@ const Navbar: React.FC = () => {
             <Link to="/login" className="flex items-center justify-center size-10 rounded-lg hover:bg-black/5 text-[#111813] transition-colors" title="Account">
               <span className="material-symbols-outlined !text-[24px]">account_circle</span>
             </Link>
+            <button 
+              className="md:hidden flex items-center justify-center size-10 rounded-lg hover:bg-black/5 text-[#111813]"
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+            >
+              <span className="material-symbols-outlined !text-[24px]">{isMobileMenuOpen ? 'close' : 'menu'}</span>
+            </button>
           </div>
         </div>
       </div>
+
+      {isMobileMenuOpen && (
+        <div className="md:hidden absolute top-full left-0 w-full bg-white border-b border-[#f0f4f2] shadow-lg py-4 px-6 flex flex-col gap-4">
+          <Link 
+            to="/shop" 
+            className="text-[#111813] text-lg font-medium hover:text-primary transition-colors"
+            onClick={() => setIsMobileMenuOpen(false)}
+          >
+            Shop
+          </Link>
+          <Link 
+            to="/about" 
+            className="text-[#111813] text-lg font-medium hover:text-primary transition-colors"
+            onClick={() => setIsMobileMenuOpen(false)}
+          >
+            About
+          </Link>
+          <Link 
+            to="/contact" 
+            className="text-[#111813] text-lg font-medium hover:text-primary transition-colors"
+            onClick={() => setIsMobileMenuOpen(false)}
+          >
+            Contact
+          </Link>
+        </div>
+      )}
     </header>
   );
 };

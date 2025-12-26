@@ -149,9 +149,9 @@ const Home: React.FC = () => {
                 <span className="material-symbols-outlined !text-[24px]">brush</span>
                 <span>Artist Spotlight</span>
               </div>
-              <h2 className="text-5xl md:text-6xl lg:text-7xl font-black leading-[0.9] tracking-tighter">Meet <br /><span className="text-primary">Ama Mensah.</span></h2>
+              <h2 className="text-5xl md:text-6xl lg:text-7xl font-black leading-[0.9] tracking-tighter">Meet <br /><span className="text-primary">Christiana Tetteh.</span></h2>
               <p className="text-gray-300 text-xl leading-relaxed max-w-xl">
-                The KNUST graphic design student bringing neo-traditional Adinkra symbols to your everyday carry. Her "Sankofa Series" captures the essence of past wisdom and modern flair.
+                The KTU graphic design student bringing neo-traditional Adinkra symbols to your everyday carry. Her "Sankofa Series" captures the essence of past wisdom and modern flair.
               </p>
               <div className="pt-4">
                 <button className="inline-flex items-center justify-center h-16 px-12 rounded-2xl bg-primary text-[#111813] text-lg font-bold hover:brightness-105 transition-all shadow-xl">
@@ -160,7 +160,7 @@ const Home: React.FC = () => {
               </div>
             </div>
             <div className="h-[400px] md:h-full min-h-[500px] relative">
-              <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=80&w=1000&auto=format&fit=crop" className="absolute inset-0 w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" alt="Artist" />
+              <img src="https://ik.imagekit.io/methuselah/ms-selora/IMG-20250726-WA0009.jpg" className="absolute inset-0 w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" alt="Artist" />
               <div className="absolute inset-0 bg-gradient-to-t from-[#102216] via-transparent md:bg-gradient-to-l to-transparent"></div>
             </div>
           </div>

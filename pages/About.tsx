@@ -28,7 +28,7 @@ const About: React.FC = () => {
       <section className="w-full bg-[#f6f8f6] py-20 border-y border-gray-100">
         <div className="max-w-5xl mx-auto px-4 md:px-10 flex flex-col md:flex-row gap-12 items-start">
           <div className="w-full md:w-1/2">
-            <div className="aspect-[3/4] w-full rounded-2xl bg-gray-200 bg-center bg-cover shadow-lg" style={{ backgroundImage: 'url("https://ik.imagekit.io/methuselah/ms-selora/IMG-20250726-WA0009.jpg")' }}></div>
+            <div className="aspect-[3/4] w-full rounded-2xl bg-gray-200 bg-center bg-cover shadow-lg" style={{ backgroundImage: 'url("https://ik.imagekit.io/methuselah/ms-selora/IMG-20250726-WA0005.jpg")' }}></div>
           </div>
           <div className="w-full md:w-1/2 space-y-8">
             <div>

@@ -54,8 +54,8 @@ const Contact: React.FC = () => {
                       <div className="size-10 rounded-full bg-primary/10 flex items-center justify-center text-primary shrink-0"><span className="material-symbols-outlined">store</span></div>
                       <div>
                         <p className="text-xs text-gray-400 font-bold uppercase">Campus Hub</p>
-                        <p className="font-bold">University of Ghana</p>
-                        <p className="text-sm text-gray-500">Student Center, Legon</p>
+                        <p className="font-bold">Koforidua Technical University</p>
+                        <p className="text-sm text-gray-500">Koforidua, Okorosi</p>
                       </div>
                    </div>
                 </div>

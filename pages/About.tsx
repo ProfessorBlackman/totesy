@@ -33,7 +33,7 @@ const About: React.FC = () => {
           <div className="w-full md:w-1/2 space-y-8">
             <div>
               <span className="text-primary font-bold text-xs tracking-widest uppercase mb-2 block">Meet the Creator</span>
-              <h2 className="text-3xl md:text-4xl font-black leading-tight">Christiana Tetteh (Killer Alomi)<br/><span className="text-gray-400 font-medium">(A.K.A Wahala Baby, A.K.A Wahala For My Boyfriend)</span></h2>
+              <h2 className="text-3xl md:text-4xl font-black leading-tight">Christiana Tetteh (Killer Alomi)<br/><span className="text-gray-400 font-medium text-2xl">(A.K.A Wahala Baby)</span><br/><span className="text-gray-400 font-medium text-2xl">(A.K.A Wahala For My Boyfriend)</span></h2>
               <div className="prose text-gray-500 mt-6 space-y-4">
                 <p>The creative force behind Totesy wasn't born in a boardroom, but in the vibrant heart of Koforidua. Christiana saw a gap in student fashion.</p>
                 <p>"I noticed students carrying books in plastic bags or boring backpacks. I wanted to give them something that felt like home, something that shouted <strong>creativity</strong> and <strong>African pride</strong>."</p>

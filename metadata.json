@@ -1,0 +1,7 @@
+{
+  "name": "Totesy - Designer Totes for Students",
+  "description": "An premium e-commerce store for artistic and designer tote bags, owned by Christiana Tetteh, specifically curated for the Ghanaian student lifestyle.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

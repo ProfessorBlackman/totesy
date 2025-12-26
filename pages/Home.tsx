@@ -151,11 +151,11 @@ const Home: React.FC = () => {
               </div>
               <h2 className="text-5xl md:text-6xl lg:text-7xl font-black leading-[0.9] tracking-tighter">Meet <br /><span className="text-primary">Christiana Tetteh.</span></h2>
               <p className="text-gray-300 text-xl leading-relaxed max-w-xl">
-                The KTU graphic design student bringing neo-traditional Adinkra symbols to your everyday carry. Her "Sankofa Series" captures the essence of past wisdom and modern flair.
+                The KTU marketing student bringing art and style to your everyday carry. Her "Sankofa Series" captures the essence of past wisdom and modern flair.
               </p>
               <div className="pt-4">
                 <button className="inline-flex items-center justify-center h-16 px-12 rounded-2xl bg-primary text-[#111813] text-lg font-bold hover:brightness-105 transition-all shadow-xl">
-                  Shop Ama's Collection
+                  Shop Yaa Moko's Collection
                 </button>
               </div>
             </div>
